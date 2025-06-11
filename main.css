@@ -1,0 +1,59 @@
+:root {
+    --light-green: #98ca3c;
+    --dark-green: #51b348;
+    --light-purple: #a16ae8;
+    font-family: "Fredoka";
+    font-size: 1.25rem;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+body {
+    background-image: linear-gradient(var(--light-green), var(--dark-green));
+    height: 100%;
+    width: 100%;
+    color: black;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 600;
+    letter-spacing: 0.03rem;
+}
+
+.emphasized {
+    color: var(--light-purple);
+    letter-spacing: 0.02rem;
+}
+
+a,
+a:visited {
+    color: var(--light-purple);
+    text-decoration: none;
+}
+
+.content-container {
+    max-width: 1000px;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+}
+
+.logo {
+    max-width: 500px;
+    align-self: center;
+    display: block;
+}
