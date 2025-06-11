@@ -44,7 +44,7 @@ h2 {
     color: var(--light-purple);
     letter-spacing: 0.02rem;
     font-size: 1.15rem;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.199);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 a,
